@@ -1,2 +1,10 @@
-# community-shared-files
-File storage for the CN community.
+# 社区文件共享 Community Files
+
+试运行 (In Beta)
+
+Flutter 社区文件共享平台：
+提供内容同步以及社区教程投稿时需要图片、代码等小文件存储的服务。
+通过向本仓库提交 Pull Request，合并之后即可部署到 files.flutter-io.cn，下简称「社区文件共享平台」。
+
+版权申明：
+社区文件共享平台是一个公共的文件共享区域，仅用于放置与社区内容相关的文件，您只能在这个平台里放置您拥有合法共享权利的文件，如果您不确定自己是否拥有共享特定文件的合法权利，请勿进行共享。
