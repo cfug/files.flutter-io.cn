@@ -35,8 +35,8 @@ jobs:
           endpoint: oss-accelerate.aliyuncs.com
           folder: ./
           exclude: |
-            .git/*
-            .github/*
+            ./.git/*
+            ./.github/*
             CNAME
             README.md
             */README.md
