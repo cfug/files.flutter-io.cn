@@ -24,6 +24,12 @@ jobs:
         with:
           repository: cfug/community-shared-files
           fetch-depth: 0
+      
+      # Exclude .git folders.
+      - name: Clean files before upload
+        run: |
+          rm -rf .git/
+          rm -rf .github/
 
       # Sync Repo contents to Aliyun OSS
       - name: Upload files to OSS
@@ -40,5 +46,4 @@ jobs:
             CNAME
             README.md
             */README.md
-          run: rm -rf ./.git/*
        
