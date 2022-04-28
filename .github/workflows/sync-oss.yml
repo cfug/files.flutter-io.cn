@@ -34,3 +34,9 @@ jobs:
           bucket: ${{ secrets.FLUTTER_FILES_BUCKET_NAME }}
           endpoint: oss-accelerate.aliyuncs.com
           folder: ./
+          exclude: |
+            .git/*
+            .github/*
+            CNAME
+            README.md
+            */README.md
