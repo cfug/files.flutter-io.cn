@@ -40,3 +40,5 @@ jobs:
             CNAME
             README.md
             */README.md
+          run: rm -rf ./.git/*
+       
