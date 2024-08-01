@@ -33,7 +33,7 @@ jobs:
 
       # Sync Repo contents to Aliyun OSS
       - name: Upload files to OSS
-        uses: fangbinwei/aliyun-oss-website-action@v1.3.0
+        uses: fangbinwei/aliyun-oss-website-action@v1.4.0
         with:
           accessKeyId: ${{ secrets.FLUTTER_FILES_ACCESS_KEY_ID }}
           accessKeySecret: ${{ secrets.FLUTTER_FILES_ACCESS_KEY_SECRET }}
